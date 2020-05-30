@@ -1,0 +1,26 @@
+body {
+    color: whitesmoke;
+    font-family: Verdana;
+}
+
+li {
+    list-style: none;
+}
+
+.menu {
+    height: 90px;
+    background-color: #002E6D;
+    color: #fff;
+}
+
+.menu-logo {
+    float: left;
+    padding: 20px 40px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.menu-list-item {
+    float: left;
+    padding: 33px 20px;
+}
