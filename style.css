@@ -1,6 +1,7 @@
 body {
     color: whitesmoke;
-    font-family: Verdana;
+    font-family: "Avenir Next";
+
 }
 
 li {
@@ -11,6 +12,7 @@ li {
     height: 90px;
     background-color: #002E6D;
     color: #fff;
+    margin-bottom: 10px;
 }
 
 .menu-logo {
@@ -24,3 +26,65 @@ li {
     float: left;
     padding: 33px 20px;
 }
+
+.main {
+    padding: 100px 80px;
+    color: black;
+}
+
+.copy-container h1 {
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+.copy-container h2 {
+    font-size: 60px;
+}
+
+.copy-container span{
+    color: darkred;
+}
+
+.contents {
+    margin-top: 10px;
+}
+
+.contents h3 {
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+}
+
+.contents-item {
+    float: left;
+}
+
+.footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 30px;
+    padding: 45px 20px;
+}
+
+.footer-list {
+    float: right;
+    font-size: 20px;
+}
+
+.footer-list li {
+    margin-right: 20px;
+    margin-bottom: 2px;
+    border-left: 2px solid #fff;
+    padding: 5px;
+}
+
+.footer-list li:hover {
+    background-color: #ffffff;
+    color: #2f5167;
+}
+.footer-list li
