@@ -1,79 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ZAAKAR</title>
     <link rel="stylesheet" href="./style.css">
-    <meta charset="UTF-8">
-    <title>home</title>
-</head>
-<body>
-    <div class="menu">
-        <div class="menu-logo">ZAAKAR</div>
-        <div class="menu-list">
-            <ul>
-                <li class="menu-list-item">Learn</li>
-                <li class="menu-list-item">About</li>
-                <li class="menu-list-item">Contact Us</li>
-            </ul>
+  </head>
+  <body>
+    <!-- Write your code below -->
+    <header>
+      <div class="header-container">
+        <div class="nav-logo">
+          <p>ZAAKAR</p>
         </div>
-    </div> 
-    <!--end of menu-->
+        <div class="nav-list">
+          <ul>
+            <li>About</li>
+            <li>Lessons</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+      </div>
+    </header>
 
     <div class="main">
-        <div class="copy-container">
-            <h1>HELLO WORLD<span>.</span></h1>
-            <h2>Let's learn to code</h2>
-        </div>
+      <div class="main-header">
+        <h1>HELLO WORLD<span>.</span></h1>
+        <h2>Let's learn to code</h2>
+      </div>
 
-        <div class="contents">
-            <h3 class="section-title">Lessons</h3>
-            <div class="contents-item">
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
-                <p>HTML & CSS</p>
-            </div>
-            <div class="contents-item">
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
-                <p>PHP</p>
-            </div>
-            <div class="contents-item">
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
-                <p>Ruby</p>
-            </div>
-            <div class="contents-item">
-                <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
-                <p>Swift</p>
-            </div>
+      <div class="lessons">
+        <h3 class="div-header">Lessons</h3>
+        <div class="lesson">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg" class="lesson-img">
+          <p>HTML & CSS</p>
         </div>
+        <div class="lesson">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg" class="lesson-img">
+          <p>PHP</p>
+        </div>
+        <div class="lesson">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg" class="lesson-img">
+          <p>Ruby</p>
+        </div>
+        <div class="lesson">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg" class="lesson-img">
+          <p>Swift</p>
+        </div>
+      </div>
 
+      <div class="contact">
+        <h3 class="div-header">Contact us</h3>
         <div class="contact-form">
-            <h3 class="section-title">Contact us</h3>
-            <p>Email (Required)</p>
-            <!-- Add an <input> tag -->
-            <input type="text">
-
-            <p>Message (Required)</p>
-            <!-- Add a <textarea> tag -->
-            <textarea></textarea>
-
-            <p>* Required fields must be filled</p>
-            <!-- Add an <input> tag -->
-            <input type="submit" value="Send" class="contact-submit">
-
+          <p for="">Email(Required)</p>
+          <input type="text" class="feedback-email">
+          <p for="">Message(Required)</p>
+          <textarea class="feedback-message"></textarea>
+          <p>* Required fields must be filled</p>
+          <input type="button" value="Send" class="feedback-button">
         </div>
+      </div>
     </div>
-    <!--end of main-->
 
-    <div class="footer">
-        <div class="footer-logo">
-            ZAAKAR
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <p>ZAAKAR</p>
         </div>
         <div class="footer-list">
-            <ul>
-                <li>About</li>
-                <li>Jobs</li>
-                <li>Contact us</li>
-            </ul>
+          <ul>
+            <li>About</li>
+            <li>Jobs</li>
+            <li>Contact us</li>
+          </ul>
         </div>
-    </div>
-    <!--end of footer-->
-</body>
+      </div>
+    </footer>
+  </body>
 </html>

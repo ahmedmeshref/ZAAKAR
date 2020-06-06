@@ -1,77 +1,102 @@
-body {
-    color: whitesmoke;
-    font-family: "Avenir Next";
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    font-family: Verdana;
 }
 
 li {
     list-style: none;
 }
 
-.menu {
-    height: 90px;
-    background-color: #002E6D;
+/* Write your code below */
+header {
+    background-color: rgba(34, 49, 52, 0.9);;
     color: #fff;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-.menu-logo {
+.header-container {
+    margin: 0 40px;
+}
+
+.nav-logo {
     float: left;
+}
+
+.nav-logo p {
     padding: 20px 40px;
-    font-weight: bold;
     font-size: 36px;
 }
 
-.menu-list-item {
-    float: left;
+.nav-list li {
+    float: right;
     padding: 33px 20px;
 }
 
 .main {
-    padding: 20px 30px;
-    color: black;
+    margin: 0 80px;
 }
 
-.copy-container h1 {
+.main-header {
+    margin: 100px 0;
+}
+
+.main-header h1 {
     font-size: 100px;
-    margin-bottom: 0;
 }
 
-.copy-container h2 {
-    font-size: 60px;
+.main-header h2 {
+    font-size: 40px;
 }
 
-.copy-container span{
-    color: darkred;
+.main-header span {
+    color: #ff4a4a;
 }
 
-.contents {
-    margin-top: 20px;
+.lessons {
+    margin-bottom: 100px;
+    height: 500px;
     text-align: center;
-    margin-bottom: 20px;
 }
 
-.section-title {
+.div-header {
+    font-size: 28px;
     border-bottom: 2px solid #dee7ec;
     padding-bottom: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
-.contents-item {
+.lesson {
     float: left;
-    margin-right: 30px;
 }
 
-.contents-item p {
-    font-size: 20px;
+.lesson img {
+    margin-right: 10px;
+    margin-bottom: 30px;
 }
 
-.contact-form {
-    padding-top: 100px;
+.lesson p {
+    font-size: 24px;
 }
 
-/* Add CSS for <input> and <textarea> tags */
+.contact {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
 .contact-form input, textarea {
-    width: 400px;
+    width: 600px;
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 20px;
@@ -79,38 +104,34 @@ li {
     border: 1px solid #dee7ec;
 }
 
-/* Add CSS for contact-submit */
-.contact-submit {
-    background-color: #dee7ec;
+.feedback-button {
+    font-size: 18px;
     color: #889eab;
+    background-color: #dee7ec;
 }
 
-.footer {
+footer {
     background-color: #2f5167;
+    height: 160px;
     color: #fff;
-    height: 120px;
-    padding: 40px;
 }
 
-.footer-logo {
+.container {
+    padding: 40px 40px
+}
+
+.logo p {
+    font-size: 32px;
     float: left;
-    font-size: 30px;
-    padding: 45px 20px;
 }
 
 .footer-list {
     float: right;
-    font-size: 20px;
 }
 
 .footer-list li {
-    margin-right: 20px;
-    margin-bottom: 2px;
-    border-left: 2px solid #fff;
-    padding: 5px;
+    margin-bottom: 20px;
 }
 
-.footer-list li:hover {
-    background-color: #ffffff;
-    color: #2f5167;
-}
+
+
