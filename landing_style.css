@@ -125,7 +125,7 @@ header {
 
 .lesson-wrapper {
     text-align: center;
-    padding-top: 60px;
+    padding: 60px 0;
     /*margin-bottom: 80px;*/
     background-color: #f7f7f7;
 }
@@ -137,9 +137,14 @@ header {
 }
 
 .lesson {
-    float: left;
     width: 25%;
     padding-top: 30px;
+
+}
+
+.lesson-body{
+    display: flex;
+    flex-direction: row;
 }
 
 .lesson-icon {
@@ -160,10 +165,6 @@ header {
     font-size: 15px;
 }
 
-.clear {
-    clear: left;
-    margin-bottom: 50px;
-}
 
 
 .footer-wrapper {
