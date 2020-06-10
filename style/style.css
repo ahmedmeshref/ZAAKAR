@@ -7,6 +7,12 @@ form, input, div {
     padding: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
+
 body {
     font-family: Verdana;
 }
@@ -15,7 +21,11 @@ li {
     list-style: none;
 }
 
-/* Write your code below */
+.container {
+    margin: 0 auto;
+    width: 97%;
+}
+
 header {
     background-color: rgba(34, 49, 52, 0.9);;
     color: #fff;
@@ -65,8 +75,12 @@ header {
 
 .lessons {
     margin-bottom: 100px;
-    height: 500px;
     text-align: center;
+}
+
+.lesson-wrapper{
+    display: flex;
+    flex: auto;
 }
 
 .div-header {
@@ -77,16 +91,17 @@ header {
 }
 
 .lesson {
-    float: left;
+    width: 25%;
 }
 
 .lesson img {
-    margin-right: 10px;
-    margin-bottom: 30px;
+    margin: 15px 15px;
+    border-radius: 30px;
 }
 
 .lesson p {
     font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .contact {
@@ -96,7 +111,7 @@ header {
 
 
 .contact-form input, textarea {
-    width: 600px;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 20px;
@@ -116,11 +131,9 @@ footer {
     color: #fff;
 }
 
-.container {
-    padding: 40px 40px
-}
 
 .logo p {
+    margin-top: 50px;
     font-size: 32px;
     float: left;
 }
@@ -130,8 +143,55 @@ footer {
 }
 
 .footer-list li {
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
+.footer-wrapper {
+    margin: 40px 40px;
+}
+
+
+@media (max-width: 1000px) {
+    .lesson-wrapper{
+        flex-wrap: wrap;
+    }
+    .lesson{
+        width: 50%;
+    }
+
+    .main-header{
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .main-header h1{
+        font-size: 70px;
+    }
+    .main-header h2{
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 670px) {
+    .lesson-wrapper{
+        flex-wrap: wrap;
+    }
+    .lesson{
+        width: 100%;
+    }
+
+    .main-header{
+        padding-top: 50px;
+        text-align: left;
+    }
+
+    .main-header h1{
+        font-size: 30px;
+    }
+    .main-header h2{
+        font-size: 30px;
+    }
+}
 
 
