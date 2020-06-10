@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5, h6, p, div {
     padding: 0;
 }
 
+
 body {
     font-family: "Lucida Grande";
 }
@@ -16,6 +17,10 @@ li {
 
 a {
     text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 /* Write your code below */
@@ -64,18 +69,19 @@ header {
 }
 
 .container {
-    width: 1170px;
+    max-width: 1170px;
+    width: 97%;
     margin: 0 auto;
 }
 
-.top-wrapper h1 {
+.header-text h1 {
     opacity: 0.7;
     font-size: 45px;
     letter-spacing: 5px;
     margin-bottom: 10px;
 }
 
-.top-wrapper p {
+.header-text p {
     opacity: 0.7;
     margin-bottom: 3px;
 }
@@ -121,7 +127,6 @@ header {
     text-align: center;
     padding-top: 60px;
     /*margin-bottom: 80px;*/
-    height: 500px;
     background-color: #f7f7f7;
 }
 
@@ -153,6 +158,11 @@ header {
     display: inline-block;
     color: #b3aeb5;
     font-size: 15px;
+}
+
+.clear {
+    clear: left;
+    margin-bottom: 50px;
 }
 
 
